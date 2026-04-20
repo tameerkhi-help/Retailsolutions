@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RetailSolutions — Get in touch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="site-wrapper">
+  <header class="main-header"><div class="container header-container"><a href="index.html" class="logo"><span class="logo-icon"><i class="fas fa-chart-line"></i></span><span class="logo-text">Retail<span class="logo-accent">Solutions</span></span></a><nav class="nav-desktop"><ul class="nav-list"><li><a href="index.html" class="nav-link">Home</a></li><li><a href="solutions.html" class="nav-link">Solutions</a></li><li><a href="pricing.html" class="nav-link">Pricing</a></li><li><a href="process.html" class="nav-link">Process</a></li><li><a href="about.html" class="nav-link">About</a></li><li><a href="contact.html" class="nav-link active">Contact</a></li></ul></nav><div class="mobile-hamburger"><input type="checkbox" id="menu-toggle" class="menu-toggle-input"><label for="menu-toggle" class="menu-toggle-label"><span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span></label><div class="mobile-menu glass-panel"><div class="mobile-menu-inner"><ul class="mobile-nav-list"><li><a href="index.html" class="mobile-nav-link">Home</a></li><li><a href="solutions.html" class="mobile-nav-link">Solutions</a></li><li><a href="pricing.html" class="mobile-nav-link">Pricing</a></li><li><a href="process.html" class="mobile-nav-link">Process</a></li><li><a href="about.html" class="mobile-nav-link">About</a></li><li><a href="contact.html" class="mobile-nav-link active">Contact</a></li></ul><div class="mobile-cta"><a href="contact.html" class="btn btn-primary btn-sm">Schedule call →</a></div></div></div></div></div></header>
+
+<main>
+  <section class="page-hero">
+    <div class="container"><h1>Let’s transform your retail operation</h1><p>Fill out the form or schedule a call — we’ll get back within 24h.</p></div>
+  </section>
+
+  <section class="contact-forms">
+    <div class="container contact-grid">
+      <div class="contact-card glass-card">
+        <h3><i class="fas fa-envelope"></i> General inquiry</h3>
+        <form id="contactForm">
+          <input type="text" name="name" placeholder="Full name" required>
+          <input type="email" name="email" placeholder="Email address" required>
+          <input type="text" name="company" placeholder="Store / company name">
+          <textarea name="message" rows="4" placeholder="How can we help?"></textarea>
+          <button type="submit" class="btn btn-primary full-width">Send message →</button>
+          <div id="contactFormStatus" class="form-status"></div>
+        </form>
+      </div>
+
+      <div class="contact-card glass-card">
+        <h3><i class="fas fa-calendar-alt"></i> Schedule a discovery call</h3>
+        <form id="scheduleCallForm">
+          <input type="text" name="name" placeholder="Full name" required>
+          <input type="email" name="email" placeholder="Email address" required>
+          <input type="tel" name="phone" placeholder="Phone number">
+          <select name="preferredDate">
+            <option value="">Preferred day (approx)</option>
+            <option>Next 1‑3 days</option>
+            <option>Next week</option>
+            <option>Flexible</option>
+          </select>
+          <textarea name="notes" rows="2" placeholder="Store count, current POS, main challenge..."></textarea>
+          <button type="submit" class="btn btn-primary full-width">Request call →</button>
+          <div id="scheduleFormStatus" class="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="main-footer"><div class="container footer-grid"><div class="footer-brand"><div class="logo">Retail<span class="logo-accent">Solutions</span></div><p>Enterprise retail intelligence that transforms data into profit.</p><div class="social-icons"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fab fa-x-twitter"></i></a></div></div><div class="footer-links"><div><h4>Explore</h4><a href="solutions.html">Solutions</a><a href="pricing.html">Pricing</a><a href="process.html">Process</a></div><div><h4>Company</h4><a href="about.html">About</a><a href="contact.html">Contact</a></div><div><h4>Legal</h4><a href="#">Privacy</a><a href="#">Terms</a></div></div></div><div class="footer-bottom"><p>© 2025 RetailSolutions — engineered for modern retail.</p></div></footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

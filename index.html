@@ -1,1 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>RetailSolutions — Modern Retail Operating System</title>
+  <meta name="description" content="Enterprise-grade retail intelligence platform that unifies operations, pricing, and analytics.">
+  <!-- Google Fonts + CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome 6 (free icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
 
+<div class="site-wrapper">
+
+  <!-- ========== HEADER (same on all pages) ========== -->
+  <header class="main-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><i class="fas fa-chart-line"></i></span>
+        <span class="logo-text">Retail<span class="logo-accent">Solutions</span></span>
+      </a>
+      
+      <!-- Desktop Nav -->
+      <nav class="nav-desktop">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="solutions.html" class="nav-link">Solutions</a></li>
+          <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+          <li><a href="process.html" class="nav-link">Process</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <!-- Mobile Hamburger (checkbox hack + JS enhancement) -->
+      <div class="mobile-hamburger">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+        <label for="menu-toggle" class="menu-toggle-label" aria-label="Menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </label>
+        <div class="mobile-menu glass-panel">
+          <div class="mobile-menu-inner">
+            <ul class="mobile-nav-list">
+              <li><a href="index.html" class="mobile-nav-link active">Home</a></li>
+              <li><a href="solutions.html" class="mobile-nav-link">Solutions</a></li>
+              <li><a href="pricing.html" class="mobile-nav-link">Pricing</a></li>
+              <li><a href="process.html" class="mobile-nav-link">Process</a></li>
+              <li><a href="about.html" class="mobile-nav-link">About</a></li>
+              <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-cta">
+              <a href="contact.html" class="btn btn-primary btn-sm">Schedule call →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge">Next‑gen retail intelligence</div>
+          <h1 class="hero-title">Your retail data, <span class="gradient-text">engineered for growth</span></h1>
+          <p class="hero-description">Stop losing margin to invisible inefficiencies. RetailSolutions connects your existing POS and back‑office into a unified command center — real‑time insights, automated pricing controls, and multi‑store orchestration.</p>
+          <div class="hero-buttons">
+            <a href="contact.html" class="btn btn-primary btn-large">Start free audit <i class="fas fa-arrow-right"></i></a>
+            <a href="process.html" class="btn btn-outline btn-large">How it works</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><span class="stat-number">500+</span> <span class="stat-label">stores managed</span></div>
+            <div class="stat"><span class="stat-number">4.8%</span> <span class="stat-label">avg margin recovery</span></div>
+            <div class="stat"><span class="stat-number">$0</span> <span class="stat-label">setup fee</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="glass-card hero-card">
+            <i class="fas fa-chart-simple"></i>
+            <div class="hero-card-title">Operational health score</div>
+            <div class="hero-card-score">94<span>/100</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width:94%"></div></div>
+            <div class="hero-card-metrics">
+              <span><i class="fas fa-check-circle"></i> Inventory drift -2.1%</span>
+              <span><i class="fas fa-chart-line"></i> Pricing accuracy +18%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted by + core pillars -->
+    <section class="trust-section">
+      <div class="container">
+        <div class="trust-label">Trusted by forward‑thinking operators</div>
+        <div class="trust-logos">
+          <span>Modisoft</span> <span>Petrosoft</span> <span>PDI</span> <span>Lightspeed</span> <span>Clover</span> <span>Square</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="pillars">
+      <div class="container">
+        <div class="section-header center">
+          <h2>One platform, infinite control</h2>
+          <p>Everything you need to run a profitable, future‑proof retail operation.</p>
+        </div>
+        <div class="pillars-grid">
+          <div class="pillar-card">
+            <i class="fas fa-chart-pie"></i>
+            <h3>Margin recovery</h3>
+            <p>Detect pricing errors, vendor overcharges, and category drifts before they hurt your P&L.</p>
+          </div>
+          <div class="pillar-card">
+            <i class="fas fa-store"></i>
+            <h3>Multi‑store harmony</h3>
+            <p>Consistent pricing, inventory rules, and compliance across all locations.</p>
+          </div>
+          <div class="pillar-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Compliance & AP</h3>
+            <p>Automated invoice reconciliation and age‑verification settings.</p>
+          </div>
+          <div class="pillar-card">
+            <i class="fas fa-eye"></i>
+            <h3>Reporting blindspots</h3>
+            <p>Dashboards configured to show what truly impacts your bottom line.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA banner -->
+    <section class="cta-banner">
+      <div class="container cta-inner glass-panel">
+        <div class="cta-text">
+          <h3>Ready to unlock hidden profits?</h3>
+          <p>Join 500+ retailers who recovered an average 4.8% margin in the first 90 days.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary btn-large">Claim free audit →</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER (same on all pages) ========== -->
+  <footer class="main-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Retail<span class="logo-accent">Solutions</span></div>
+        <p>Enterprise retail intelligence that transforms data into profit.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div><h4>Explore</h4><a href="solutions.html">Solutions</a><a href="pricing.html">Pricing</a><a href="process.html">Process</a></div>
+        <div><h4>Company</h4><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+        <div><h4>Legal</h4><a href="#">Privacy</a><a href="#">Terms</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 RetailSolutions — engineered for modern retail.</p></div>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
